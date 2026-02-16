@@ -146,4 +146,4 @@ console.log("Spliced array: " + splicedArray);
 
 //splice with negative index
 concatenatedArray.splice(-1, 0, 12);    
-console.log("Concatenated array after splice with negative index: " + concatenatedArray); //Output: Concatenated array after splice with negative index: 1,2,12
+console.log("Concatenated Array after splice with negative index: " + concatenatedArray); //Output: Concatenated array after splice with negative index: 1,2,12
