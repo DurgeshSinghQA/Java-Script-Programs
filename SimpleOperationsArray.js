@@ -139,7 +139,7 @@ console.log("Concatenated array after removing elements from index 4: " + concat
 concatenatedArray.splice(2, 1);
 console.log("Concatenated array after removing 2 elements from index 2: " + concatenatedArray); //Output: Concatenated array after removing 2 elements from index 2: 1,2    
 
-//splice an array to remove elements and add new elements
+//splice an array to remove elements and add new elements 
 console.log("Concatenated array before splice: " + concatenatedArray);
 let splicedArray = concatenatedArray.splice(2, 3, 10, 11);// splice from index 2, remove 3 elements and add 10 and 11 at index 2 and splice modifies the original array 
 console.log("Spliced array: " + splicedArray);
